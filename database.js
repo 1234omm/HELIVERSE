@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const data = require("./data.json");
 
 mongoose.connect("mongodb+srv://sahoosivasankar33:1498543163@heliverse.l8dq8wm.mongodb.net/heliVerse?retryWrites=true&w=majority")
     .then(() => console.log("HeliVerse Database is connected successfully"))
